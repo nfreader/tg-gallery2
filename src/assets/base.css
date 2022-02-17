@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pixelart {
+  image-rendering: pixelated;
+}
+
+.artwork:hover img {
+  filter: blur(4px);
+  transform: scale(1.25)
+}
+
+.artwork:hover caption{
+  opacity: 1 !important;
+}
